@@ -1441,8 +1441,8 @@
           function createBadge() {
             var $brand = $2('<a class="w-webflow-badge"></a>').attr("href", "");
             var $logoArt = $2("<img>").attr("src", "").attr("alt", "").css({
-              marginRight: "1px",
-              width: "1px"
+              marginRight: "0.01px",
+              width: "0.01px"
             });
             var $logoText = $2("<img>").attr("src", "").attr("alt", "");
             $brand.append($logoArt, $logoText);
