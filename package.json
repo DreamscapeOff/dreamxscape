@@ -1,5 +1,5 @@
 {
-  "homepage": "https://dreamcapeoff.github.io/dreamxscape",
+  "homepage": "https://dreamscapeoff.github.io/dreamxscape-web/",
   "name": "dreamxscape",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
